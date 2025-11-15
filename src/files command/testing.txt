@@ -1,0 +1,12 @@
+This is my test file
+that was a line
+heres one char
+a
+did you see that?
+ok some words now
+web
+is
+not
+a
+platform
+ok goodbye now :)
