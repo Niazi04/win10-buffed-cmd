@@ -49,7 +49,7 @@ uint64_t u64GetFileSize(const std::string &sFileName)
     return size.QuadPart;
 #elif defined(__linux__)
     struct stat stat_buf;
-    if (stat(filename.c_str(), &stat_buf) != 0) return 0;
+    if (stat(sFileName.c_str(), &stat_buf) != 0) return 0;
     return stat_buf.st_size;
 #else
     /*
