@@ -46,11 +46,11 @@ int main(int argc, char** argv){
     }
 
     fileName = argv[argc-1];
-    if (fileName.find(".txt") == std::string::npos)
-    {
-        std::cout << "this no txt file u dum fuck" << std::endl;
-        return -1;
-    }
+    // if (fileName.find(".txt") == std::string::npos)
+    // {
+    //     std::cout << "this no txt file u dum fuck" << std::endl;
+    //     return -1;
+    // }
     
     std::ifstream userFile(fileName);
     if(!userFile.is_open()) return -1;
